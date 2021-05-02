@@ -1,0 +1,12 @@
+# template to substitute with actual values
+env: deploy
+server:
+  port: 8000
+  host: "0.0.0.0"
+auth:
+  exp: 72 # hours
+  secret: {{secret_key}}
+external:
+  telegram:
+    telegramTo: {{telegram_to}}
+    telegramToken: {{telegram_token}}

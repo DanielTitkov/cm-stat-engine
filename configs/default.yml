@@ -1,0 +1,12 @@
+# config-example
+env: dev
+server:
+  port: 8000
+  host: "0.0.0.0"
+auth:
+  exp: 72 # hours
+  secret: so-much-secret
+external:
+  telegram:
+    telegramTo: 1999
+    telegramToken: so-very-token
